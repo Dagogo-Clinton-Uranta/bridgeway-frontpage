@@ -1,3 +1,5 @@
+<?php require_once 'submit.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -289,7 +291,7 @@
          
            <div class="second circle" data-percent="100">
             <strong>sample</strong>
-            <h5>of requests delivered so far!</h5>
+            <h5>of requests successfully delivered!</h5>
           </div>  <!--secpnd circle ending-->
           
          </div>  <!--progressbar ending-->
@@ -629,7 +631,7 @@
         <input type="text" name="subject" class="form-control form-com" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Subject" required="">
     </div>
     <div class="form-group">
-        <textarea name="message" class="form-control form-com" placeholder="Write your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+        <textarea name="message"  rows="8" class="form-control form-com" placeholder="Write your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
     </div>
 
     <div class="form-group">
@@ -640,7 +642,8 @@
     <div class="form-group">
         <input type="file" name="attachment" class="form-control form-com">
     </div>
-    <div class="submit">
+
+    <div class="submit submit-btn">
         <input type="submit" name="submit" class="btn" value="SUBMIT">
     </div>
 </form> <!--form ending-->
