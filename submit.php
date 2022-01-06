@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
             if(!empty($_FILES["attachment"]["name"])){
                 
                 // File path config
-                $targetDir = "uploads/";
+                $targetDir = "/";
                 $fileName = basename($_FILES["attachment"]["name"]);
                 $targetFilePath = $targetDir . $fileName;
                 $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
