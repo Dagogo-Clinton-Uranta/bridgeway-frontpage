@@ -963,7 +963,18 @@ width:100vw;
  }
 
     textarea {
-       height:400px;
+       height:250px;
+       color: #ffffff;
+    font-family:"Nunito";
+    font-weight:600;
+    margin:10px 0px;
+    padding:10px 0px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3b3663d8;
+    border-radius: 10px;
+    /*background-image:linear-gradient(90deg, #ef818133 , #ef818115  );*/
+    background: #ef818133;
    }
 
 input.submit-btn {

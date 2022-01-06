@@ -603,7 +603,7 @@
      <h2>Fill this form and we'll address your issue...</h2>
      <form action="https://formsubmit.co/393b7bb186d80ee1fe0a4a4fcc1442bc"  method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-      <input type="hidden" name="_subject" value="New ISSUE FROM BRIDGEWAY WEBSITE!">
+      <input type="hidden" name="_subject" value="NEW ISSUE FROM CUSTOMER!">
 
 
        <input type="text" placeholder="   Your Name" class="f-name form-com" required> 
@@ -611,8 +611,8 @@
        <input type="tel" id="phone" name="phone" class="phone-input form-com"
        placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
 
-       <textarea name="message"   rows="8" class="form-com" placeholder="Write your message here..."></textarea>
-       <input type="file" class="form-com" name="attachment" accept="pdf, doc ,docx">
+       <textarea name="message"   rows="8"  placeholder="Write your message here..."></textarea>
+       <input type="file" class="form-com" name="attachment" accept=".pdf, .doc ,.docx">
        <input type="Submit" value="submit" class="submit-btn"/>
      </form> 
      
