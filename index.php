@@ -606,12 +606,13 @@
       <input type="hidden" name="_subject" value="New ISSUE FROM BRIDGEWAY WEBSITE!">
 
 
-       <input type="text" placeholder="   Your Name" class="f-name form-com">
-       <input type="email" placeholder="   Email" class="em-input form-com">
+       <input type="text" placeholder="   Your Name" class="f-name form-com" required> 
+       <input type="email" placeholder="   Email" class="em-input form-com" required>
        <input type="tel" id="phone" name="phone" class="phone-input form-com"
        placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
+
        <textarea name="message"   rows="8" class="form-com" placeholder="Write your message here..."></textarea>
-       <input type="file" class="form-com" name="attachment" accept="image/png, image/jpeg ,image/jpg pdf, doc ,docx">
+       <input type="file" class="form-com" name="attachment" accept="image/png, image/jpeg ,image/jpg, pdf, doc ,docx">
        <input type="Submit" value="submit" class="submit-btn"/>
      </form> 
      

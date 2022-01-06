@@ -962,7 +962,10 @@ width:100vw;
      border-width: 3.5px ;
  }
 
- 
+   form textarea {
+       height:200px;
+   }
+
 input.submit-btn {
     color: #ffffff;
     border: none;
