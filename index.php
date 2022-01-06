@@ -423,7 +423,7 @@
         <h2>Bridgeway<br> wants YOU !</h2>
         <p>Click each Job title to View and Apply.</p>
        
-         <a href="#">  <button class="common-btn" type="button">View All <i class="fa fa-long-arrow-right purchase"></i></button></a>
+         <a href="viewall.html">  <button class="common-btn" type="button">View All <i class="fa fa-long-arrow-right purchase"></i></button></a>
   <!--<a href="#">Make a purchase now  </a> -->
        </div> <!-- expand-img-info ending-->
     
@@ -437,19 +437,19 @@
      <div class="position-info-col">
          
         <div class="position-info">
-          <h3>Operations Executive (Click)</h3>
+        <a href="/operationsexecutive.html"> <h3>Operations Executive (Click)</h3> </a> 
           <p><strong>Description:</strong> &nbsp; Your responsibilities will include acquiring new clients for the bank , highlighting our different products and their benefits to customers during marketing campaigns, and maintaining relationships with existing customers. 
             Ideally you will have at least 2 years of experience, and are a people person... </p>
          </div> <!--position-info-ending-->
 
         <div class="position-info">
-            <h3>Marketing Executive (Click) </h3>
+        <a href="/marketingexecutive.html"> <h3>Marketing Executive (Click) </h3> </a>
             <p><strong>Description:</strong> &nbsp; Your responsibilities will include acquiring new clients for the bank , highlighting our different products and their benefits to customers during marketing campaigns, and maintaining relationships with existing customers. 
               Ideally you will have at least 2 years of experience, and are a people person... </p>
            </div> <!--position-info-ending-->
 
            <div class="position-info">
-            <h3>Bank Teller (Click) </h3>
+           <a href="/bankteller.html">  <h3>Bank Teller (Click) </h3> </a>
             <p><strong>Description:</strong> &nbsp; Your responsibilities will include conducting withdrawals and deposits
                on client accounts ,conducting "end of day" account appraisals, and processing transaction requests from bridgeway's online features . 
               Ideally you will have at least 2 years of experience, and are meticulous and analytical... </p>
