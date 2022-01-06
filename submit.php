@@ -61,6 +61,7 @@ if(isset($_POST['submit'])){
                     <p><b>Name:</b> '.$name.'</p>
                     <p><b>Email:</b> '.$email.'</p>
                     <p><b>Subject:</b> '.$subject.'</p>
+                    <p><b>Phone Number:</b> '.$number.'</p>
                     <p><b>Message:</b><br/>'.$message.'</p>';
                 
                 // Header for sender info
