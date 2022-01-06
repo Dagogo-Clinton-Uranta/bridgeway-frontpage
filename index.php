@@ -603,6 +603,7 @@
      <h2>Fill this form and we'll address your issue...</h2>
      <form action="https://formsubmit.co/393b7bb186d80ee1fe0a4a4fcc1442bc"  method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_next" value="https://bridgeway-front-page.herokuapp.com/thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_subject" value="NEW ISSUE FROM CUSTOMER!">
 
 
