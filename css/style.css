@@ -963,7 +963,7 @@ width:100vw;
  }
 
     textarea {
-       height:200px;
+       height:120px;
        width:100%;
        color: #ffffff;
     font-family:"Nunito";
@@ -978,7 +978,7 @@ width:100vw;
     background: #ef818133;
    }
 
-   .textarea::placeholder {
+   textarea::placeholder {
     color: #ffffff; 
  }
 
@@ -1197,9 +1197,49 @@ footer i:hover{
   }
 
 
+/* NEW PAGE TEXT-CENTER*/
 
+thank-h5 {
+    color:#3b3663;
+    font-size:42px;
+    font-weight:700;
+    letter-spacing: 3px;
+    margin-bottom: 21px;
+}
 
+thank-h2 {
+    color:#3b3663;
+    font-size:90px;
+    line-height: 38px; /*this is essentially line spacing*/
+}
 
+button.thank-btn {
+    background-image:linear-gradient(90deg, #8b81ef, #3b3663d8);
+    /*positioning*/
+    position: relative;
+    top:50%;
+    left:50%;
+    /*positioning-ending*/
 
+    padding: 10px 20px;
+    color:#ffff;
+    border:none;
+    border-radius:10px;
+    margin-top:20px;
+    margin-right: 80px;
+    margin-left:-10px;
+    font-size: 18px;
+    font-weight:400;
+    font-family:"Nunito";
+    cursor:pointer;
+    transition:all 0.1s ease-in-out;
+}  
+
+.common-thank:hover {
+    background-image:linear-gradient(90deg, #8b81ef, #c91821);
+    font-weight:510;
+    
+    
+}
 
 
