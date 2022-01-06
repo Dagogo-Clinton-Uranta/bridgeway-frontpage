@@ -601,7 +601,7 @@
 
     <div class="form-par">
      <h2>Fill this form and we'll address your issue...</h2>
-     <form action="https://formsubmit.co/dagogouranta@gmail.com"  method="POST" enctype="multipart/form-data">
+     <form action="https://formsubmit.co/393b7bb186d80ee1fe0a4a4fcc1442bc"  method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
       <input type="hidden" name="_subject" value="New ISSUE FROM BRIDGEWAY WEBSITE!">
 
