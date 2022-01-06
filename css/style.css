@@ -1199,6 +1199,11 @@ footer i:hover{
 
 /* NEW PAGE TEXT-CENTER*/
 
+#thanking-you {
+    padding: 50%;
+}
+
+
 thank-h5 {
     color:#3b3663;
     font-size:42px;
