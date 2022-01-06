@@ -963,7 +963,8 @@ width:100vw;
  }
 
     textarea {
-       height:250px;
+       height:200px;
+       width:100%;
        color: #ffffff;
     font-family:"Nunito";
     font-weight:600;
@@ -976,6 +977,11 @@ width:100vw;
     /*background-image:linear-gradient(90deg, #ef818133 , #ef818115  );*/
     background: #ef818133;
    }
+
+   .textarea::placeholder {
+    color: #ffffff; 
+ }
+
 
 input.submit-btn {
     color: #ffffff;

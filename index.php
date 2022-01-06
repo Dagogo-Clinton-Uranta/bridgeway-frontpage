@@ -608,11 +608,13 @@
 
        <input type="text" placeholder="   Your Name" class="f-name form-com" required> 
        <input type="email" placeholder="   Email" class="em-input form-com" required>
-       <input type="tel" id="phone" name="phone" class="phone-input form-com"
-       placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
+     
+       <!-- <input type="tel" id="phone" name="phone" class="phone-input form-com"
+       placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required> -->
 
-       <textarea name="message"   rows="8"  placeholder="Write your message here..."></textarea>
-       <input type="file" class="form-com" name="attachment" accept=".pdf, .doc ,.docx">
+       <textarea name="message"   rows="8"  placeholder="  Write your message here..."></textarea>
+       
+       <!-- <input type="file" class="form-com" name="attachment" accept=".pdf, .doc ,.docx"> -->
        <input type="Submit" value="submit" class="submit-btn"/>
      </form> 
      
