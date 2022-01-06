@@ -962,8 +962,8 @@ width:100vw;
      border-width: 3.5px ;
  }
 
-   form textarea {
-       height:200px;
+    textarea {
+       height:400px;
    }
 
 input.submit-btn {

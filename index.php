@@ -612,7 +612,7 @@
        placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
 
        <textarea name="message"   rows="8" class="form-com" placeholder="Write your message here..."></textarea>
-       <input type="file" class="form-com" name="attachment" accept="image/png, image/jpeg ,image/jpg, pdf, doc ,docx">
+       <input type="file" class="form-com" name="attachment" accept="pdf, doc ,docx">
        <input type="Submit" value="submit" class="submit-btn"/>
      </form> 
      
