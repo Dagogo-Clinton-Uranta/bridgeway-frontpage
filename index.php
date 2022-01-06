@@ -599,25 +599,31 @@
     <h2 class="common-h2 carousel-font-color">Get in touch with us !</h2>
    </div>  <!--text-center ending-->
 
-   <!-- <div class="form-par">
+    <div class="form-par">
      <h2>Fill this form and we'll address your issue...</h2>
-     <form action="">
+     <form action="https://formsubmit.co/dagogouranta@gmail.com" enctype="multipart/form-data">
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+      <input type="hidden" name="_subject" value="New ISSUE FROM BRIDGEWAY WEBSITE!">
+
+
        <input type="text" placeholder="   Your Name" class="f-name form-com">
        <input type="email" placeholder="   Email" class="em-input form-com">
        <input type="tel" id="phone" name="phone" class="phone-input form-com"
        placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
+       <textarea name="message"   rows="8" class="form-com" placeholder="Write your message here..."></textarea>
+       <input type="file" class="form-com" name="attachment" accept="image/png, image/jpeg ,image/jpg pdf, doc ,docx">
        <input type="Submit" value="submit" class="submit-btn"/>
-     </form> --> 
+     </form> 
      
      <!--form ending-->
    </div> <!--form-par ending-->
 
-   <!-- Display submission status -->
+   <!-- Display submission status 
 <?php if(!empty($statusMsg)){ ?>
     <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
-<?php } ?>
+<?php } ?> -->
 
-<!-- Display contact form -->
+<!-- Display contact form 
 <div class="form-par">
      <h2>Fill this form and we'll address your issue...</h2>
 <form method="post" action="" enctype="multipart/form-data">
@@ -646,10 +652,10 @@
     <div class="submit submit-btn">
         <input type="submit" name="submit" class="btn" value="SUBMIT">
     </div>
-</form> <!--form ending-->
-</div> <!--form-par ending-->
+</form> 
+</div>
 
-  <!-- Display contact form  ending-->
+ -->
    
    <div class="back-image">
     <!-- THIS IS INTENTIONALLY EMPTY FOR A BACKGROUND IMAGE-->
