@@ -631,11 +631,11 @@
         <input type="text" name="subject" class="form-control form-com" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Subject" required="">
     </div>
     <div class="form-group">
-        <textarea name="message"  rows="8" class="form-control form-com" placeholder="Write your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+        <textarea name="message"  rows="8"  class="form-control form-com" placeholder="Write your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
     </div>
 
     <div class="form-group">
-    <input type="tel" id="phone" name="phone" class="phone-input form-com"
+    <input type="tel" id="phone" name="phone" class="phone-input form-com"  <?php echo !empty($postData['number'])?$postData['number']:''; ?>
        placeholder="   Mobile No"  pattern="[0]{1}[7-9]{1}[0-1]{1}[0-9]{8}" required>
     </div>
 

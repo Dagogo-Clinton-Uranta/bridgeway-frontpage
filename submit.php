@@ -8,6 +8,7 @@ if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+    $number = $_POST['number'];
     
     // Check whether submitted data is not empty
     if(!empty($email) && !empty($name) && !empty($subject) && !empty($message)){
@@ -28,7 +29,7 @@ if(isset($_POST['submit'])){
                 $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
                 
                 // Allow certain file formats
-                $allowTypes = array('pdf', 'doc', 'docx');
+                $allowTypes = array('pdf', 'doc', 'docx', 'jpg', 'png', 'jpeg');
                 if(in_array($fileType, $allowTypes)){
                     // Upload file to the server
                     if(move_uploaded_file($_FILES["attachment"]["tmp_name"], $targetFilePath)){
@@ -39,7 +40,7 @@ if(isset($_POST['submit'])){
                     }
                 }else{
                     $uploadStatus = 0;
-                    $statusMsg = 'Sorry, only PDF, DOC & DOCX files are allowed to upload.';
+                    $statusMsg = 'Sorry, only PDF, DOC, JPG, JPEG, & PNG files are allowed to upload.';
                 }
             }
             
